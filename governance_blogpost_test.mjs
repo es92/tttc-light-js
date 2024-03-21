@@ -13,7 +13,7 @@ async function main() {
       apiKey: process.env.OPENAI_API_KEY,
       googleSheet: {
         url: "https://docs.google.com/spreadsheets/d/1jwZEyCw5SWFWVI5AGAN16WM0Swz-HcMhWIECNgKtdAY/edit?resourcekey#gid=1571085648",
-        pieChartColumns: ["Do you agree with the approach presented in the blogpost? (1 is least agreement, 5 is most)"],
+        pieChartColumns: ["Do you agree with the approach presented in the blogpost? (1 is least agreement, 5 is most) "],
         //filterEmails: [
         //  "bruno1@gmail.com",
         //  "ted@gmail.com",
