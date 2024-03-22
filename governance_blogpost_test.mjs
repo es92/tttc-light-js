@@ -21,6 +21,7 @@ async function main() {
         //  "bob@gmail.com",
         //  "yannis@gmail.com",
         //],
+        oneSubmissionPerEmail: true,
       },
       title: "Governance Blogpost",
       question: "Do you agree with the approach presented in the governance blogpost?",
