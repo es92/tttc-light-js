@@ -59,6 +59,7 @@ export async function fetchSpreadsheetData(
     };
   });
 
+  // extract the comments
   const emailToData = {};
 
   rows.forEach((row, id) => {
